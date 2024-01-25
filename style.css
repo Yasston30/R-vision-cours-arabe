@@ -1,0 +1,48 @@
+/* Style général de la page */
+body {
+    background-color: black; /* Fond noir */
+    color: white; /* Texte en blanc */
+    font-family: Arial, sans-serif; /* Police de caractère */
+    text-align: center; /* Centrer le contenu */
+}
+
+/* Style du titre h1 */
+h1 {
+    color: red; /* Texte du titre en rouge */
+    font-size: 40px;
+}
+
+/* Style des boutons */
+button {
+    background-color: red; /* Fond des boutons en rouge */
+    color: black; /* Texte des boutons en noir */
+    border: none; /* Pas de bordure */
+    padding: 10px 20px; /* Espacement interne */
+    margin: 5px; /* Marge externe */
+    cursor: pointer; /* Curseur en forme de pointeur */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Animation douce */
+}
+
+/* Style des boutons lorsqu'ils sont survolés */
+button:hover {
+    background-color: darkred; /* Fond des boutons en rouge foncé */
+    transform: scale(1.1); /* Grossir le bouton */
+}
+
+/* Styles supplémentaires pour les autres éléments */
+#wordDisplay, #resultMessage {
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+/* Style pour le champ de saisie */
+#answerInput {
+    margin: 10px;
+    padding: 5px;
+}
+
+/* Ajustements pour les boutons des cours */
+#courButtons {
+    margin-bottom: 20px;
+}
